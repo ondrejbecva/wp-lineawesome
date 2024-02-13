@@ -10,6 +10,8 @@ https://wordpress.org/plugins/icon-block/
 
 Before you can use the plugin, you need to register the register.js script with the code below (you can also read the instructions on nickdiego.com)
 
+```
+
 function register_line_awesome_icon_set() {
 	wp_enqueue_script(
 		'line-awesome-icon-set',
@@ -20,6 +22,7 @@ function register_line_awesome_icon_set() {
 	);
 }
 add_action( 'enqueue_block_editor_assets', 'register_line_awesome_icon_set' );
+```
 
 More detailed instructions on how this works:
 
