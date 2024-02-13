@@ -1,7 +1,11 @@
 # Wordpress Line Awesome Icon Set
 
 ## About
-This is not an official extension. 
+This is not an official extension and I am not the owner of these icons.
+
+Official owner of icons:
+https://icons8.com/line-awesome
+
 
 Pre-made configuration to use Line Awesome icon set in Wordpress editor. I believe it can help someone.
 
