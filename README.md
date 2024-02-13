@@ -16,7 +16,7 @@ https://wordpress.org/plugins/icon-block/
 
 ## Installation
 
-Before you can use the plugin, you need to register the register.js script with the code below (you can also read the instructions on nickdiego.com)
+Before you can use icons, you need to register the register.js script with the code below (you can also read the instructions on nickdiego.com)
 
 ```
 function register_line_awesome_icon_set() {
@@ -32,6 +32,7 @@ function register_line_awesome_icon_set() {
 add_action( 'enqueue_block_editor_assets', 'register_line_awesome_icon_set' );
 ```
 This snippet is designed to load script from theme folder, supporting also child themes.
+(Customize to your needs)
 
 More detailed instructions on how this works:
 
